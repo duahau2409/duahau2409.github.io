@@ -1,0 +1,92 @@
+/* PC */
+@media (min-width:1024px) {
+    
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* tablet && Mobie*/
+@media (max-width: 1023px){
+    #nav .subnav a{
+        padding: 8px 12px;
+    }
+    .bth{
+        padding: 15px 16px;
+    }
+    .contact-form .form-control {
+        padding: 15px;
+    }
+    .socials-list{
+        font-size: 48px;
+    }
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+/* Mobie */
+@media (max-width: 740px) {
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav > li {
+        display: block;
+    }    
+    #nav{
+        display: block;
+    }
+    #nav .subnav{
+        background-color: black;
+        position: initial;
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 5px 46px;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobie-menu-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+
+    #content .member-item1{
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .place-item {
+        float: left;
+        width: 100%;
+        padding: 0 8px;
+    }
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+
+    .contact-content {
+        text-align: left;
+    }
+    .btn {
+        margin-bottom: 16px;
+    }
+    .s-mt-8{
+        margin-top: 8px;
+    }
+}
